@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <title>КалугаДом &bull; Недвижимость в Калуге от собственников и агентств</title>
+        
+        <meta charset="UTF-8" />
+        
+        <meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+        
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="КалугаДом" />
+        
+        <meta name="description" content="Каталог недвижимости в Калуге от ведущих агентств недвижимости и частных лиц" />
+        <meta name="keywords" content="Недвижимость, Калуга, продажа, покупка, продать, купить, база данных" />
+        
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="КалугаДом" />
+        <meta property="og:title" content="Вся недвижимость Калуги" />
+        <meta property="og:description" content="Каталог недвижимости в Калуге от ведущих агентств недвижимости и частных лиц" />
+        <meta property="og:url" content="http://www.kalugadom.ru/" />
+        <meta property="og:image" content="social/index.png" />
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="kalugadom">
+        <meta name="twitter:creator" content="kalugadom">
+        <meta name="twitter:title" content="Вся недвижимость Калуги">
+        <meta name="twitter:description" content="Каталог недвижимости в Калуге от ведущих агентств недвижимости и частных лиц">
+        <meta name="twitter:image:src" content="social/index.png">
+            
+        <link rel="apple-touch-icon-precomposed" href="i/apple-touch-icon-precomposed.png" />
+        <link rel="shortcut icon" href="img/favicon.png"  />
+        <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lora:400italic,700italic&subset=latin,cyrillic" />
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic" />
+        <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css">
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>    
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js"></script>
+        
+
+</head>
+
+
+<body>
+
+	<div class="site" id="top">
+	
+<!-- Первый этаж шапки -->
+	
+		<div class="mini-outer">
+			<div class="mini">
+				<div class="phone">8 800 505-40-39</div>
+				<div class="header-search">
+					<div class="search-input-button">
+						<input type="submit" value="" />
+					</div>
+					<input type="text" placeholder="Поиск по сайту" class="search-input" />
+				</div>
+				<span class="search-button"></span>
+				<div class="header-dop-navigaion">
+					<ul>
+						<li><a href="/ad/">Реклама на сайте</a></li>
+						<li><a href="/contacts/">Контактная информация</a></li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //// Первый этаж шапки -->
+
+<!-- Шапка -->
+	
+	<div class="header">
+		<div class="header-fix">
+			<div class="logo"><a href="/">Калуга<span>Dом</span></a></div>
+			<div class="header-navigation">
+				<ul>
+					<li><a href="agency/">Агентства недвижимости</a></li>
+					<li><a href="construction_companies/">Новостройки</a></li>
+				</ul>	
+			</div>
+	
+	<!-- Всплывающая форма логина -->
+	
+		<div class="login-form">
+			<div class="login-form-inner">
+				<div class="login-input"><input id="logintext" type="text" placeholder="Логин" /></div>
+				<div class="login-input"><input id="loginpass" type="password" placeholder="Пароль" />
+					<span class="eye" title="Показать пароль"></span>
+					<span class="open-eye" title="Скрыть пароль"></span>
+				</div>
+				<div class="login-button"><input type="button" value="Войти" /></div>
+				<div class="login-links">
+					<ul>
+						<li><a href="client/registration/">Зарегистрироваться</a></li>
+						<li><a href="client/forgotpass/">Забыли пароль?</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div class="login-social">
+					<span class="login-social-or">Или</span>
+					<a href="#" id="google-id">Войти через Google</a>	
+					<a href="#" id="facebook-id">Войти через Facebook</a>
+					<a href="#" id="vk-id">Войти через VK</a>
+				</div>
+			</div>
+			<span class="mobile-form-close">Закрыть</span>
+		</div>
+	
+	<!-- //// Всплывающая форма логина -->
+	
+		<div class="login">
+			<span class="login-pseudolink">Войти</span>
+		</div>
+	
+		<div class="motivation">Хотите <strong>быстро</strong> продать или сдать свою недвижимость? <a href="/client/registration/">Зарегистрируйтесь</a> или <span class="text-pseudolink">войдите</span>, это <strong>бесплатно</strong>!</div>
+	
+		<div class="clear"></div>
+	
+		</div></div>
+
+<!-- //// Шапка -->
+	
+<!-- Поиск недвижимости -->
+	
+	<div class="obj-search-outer">
+		<div class="obj-search-inner">
+			<div class="obj-fix">
+				<div class="obj-right">
+					<div class="obj-search">
+				
+							<div class="obj-line-item" id="type">
+								<label>Тип недвижимости</label>
+								<div class="drop-down-box" id="obj-type"><span></span>Квартиры</div>
+							</div>
+						
+							<div class="obj-line-item" id="rent-or-buy">
+								<label>&nbsp;</label>
+								<div class="or-or" id="rent-or-buy">
+									<div class="or-left checked">Купить</div>
+									<div class="or-right unchecked">Снять</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+						
+							<div class="obj-line-item">
+								<label>Количество комнат</label>
+								<div class="checkbox-list" id="rooms">
+									<div class="checkbox">1</div>
+									<div class="checkbox checked">2</div>
+									<div class="checkbox">3</div>
+									<div class="checkbox">4&nbsp;+</div>
+									<div class="clear"></div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							
+					
+							<div class="obj-line-item" id="district">
+								<label>Район</label>
+								<div class="drop-down-box" id="obj-district"><span></span>Малоярославецкий</div>
+							</div>
+						
+							<div class="obj-line-item">
+								<label>Цена</label>
+								<div class="from-to">
+									<input type="text" placeholder="от" />
+									<span class="from-to-sep">&mdash;</span>
+									<input type="text" placeholder="до" />
+									<span class="rouble">&nbsp;руб.</span>
+									<div class="clear"></div>
+								</div>
+							</div>
+					
+					
+							<div class="obj-line-item">
+								<div class="obj-search-button">
+									<input value="Найти" type="button" />
+								</div>
+							</div>	
+							<div class="clear"></div>
+					
+					</div>
+					
+	<!-- Советы -->
+					
+					<div class="tips">
+						<div class="fotorama" data-width="695" data-arrows="false" data-height="100" data-loop="true" data-autoplay="10000" data-stopautoplayontouch="false" data-nav="false" data-transition="crossfade">
+							<div class="tip">Поставьте в&nbsp;параметрах поиска на&nbsp;одну комнату больше. В&nbsp;продаже могут быть более просторные и&nbsp;недорогие квартиры.</div>
+							<div class="tip">Хотите купить офис или помещение под магазин? Поищите квартиры на&nbsp;первых этажах.</div>
+							<div class="tip">Ищите квартиру? Загляните в&nbsp;раздел новостройки. Возможно, вы&nbsp;найдете выгодный вариант в&nbsp;только что построенном доме.</div>
+						</div>
+					</div>
+					
+	<!-- //// Советы -->
+
+				</div>
+
+	<!-- Меню по типам объектов -->
+				
+				<div class="obj-left">
+					<ul>
+						<li class="gb"><a href="#content">Горячие предложения <span></span></a></li>
+						<li><a href="http://kalugadom.ru/kvartiry">Квартиры <span>13008</span></a></li>
+						<li><a href="http://kalugadom.ru/komnaty">Комнаты <span>649</span></a></li>
+						<li><a href="http://kalugadom.ru/novostroiki">Новостройки <span>953</span></a></li>
+						<li><a href="http://kalugadom.ru/kottedzhi">Дома и Коттеджи <span>811</span></a></li>
+						<li><a href="http://kalugadom.ru/dachi">Дачи <span>2</span></a></li>
+						<li><a href="http://kalugadom.ru/uchastki">Участки <span>1201</span></a></li>
+						<li><a href="http://kalugadom.ru/commercial">Коммерческие <span>456</span></a></li>
+					</ul> 
+				</div>
+				
+	<!-- //// Меню по типам объектов -->
+				
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="black"></div>
+		
+		<div class="black-box">
+		<div class="black-box-inner">
+			
+			<div class="b250">
+				<span>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-9369897517132857" data-ad-slot="5376670965"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</span>
+				<div class="b250-ad-link"><a href="/ad/">Реклама</a></div>
+			</div>
+	
+			<div class="drop-down-list" id="obj-type-list">
+				<strong>Выберите тип недвижимости</strong>
+				<div class="drop-down-types">
+					<span>Квартиры</span>
+					<span>Комнаты</span>
+					<span>Новостройки</span>
+					<span>Дома и Коттеджи</span> 
+					<span>Дачи</span>
+					<span>Участки</span>
+					<span>Коммерческие</span>
+					<div class="close">Закрыть</div>
+				</div>
+			</div>
+			
+			
+			<div class="drop-down-list" id="obj-district-list">
+				<strong>Выберите один или несколько районов</strong>
+				<div class="drop-down-district">
+					<span>Дзержинский</span>               
+	                <span>Ленинский</span>          
+	                <span class="checked">Московский</span>         
+	                <span class="checked">Октябрьский</span>
+	                <span>Пригороды</span>
+	                <span>Бабынинский</span>
+	                <span>Барятинский</span>
+	                <span>Думиничский</span>
+	                <span>Жиздринский</span>
+	                <span>Жуковский</span>
+	                <span>Износковский</span>
+	                <span>Кировский</span>
+	                <span>Козельский</span>
+	                <span>Куйбышевский</span>
+	                <span class="checked">Людиновский</span>
+	                <span>Малоярославецкий</span>
+	                <span>Медынский</span>
+	                <span class="checked">Мещовский</span>
+	                <span>Мосальский</span>
+	                <span>Перемышльский</span>
+	                <span>Спас-Деменский</span>
+	                <span>Сухиничский</span>
+	                <span>Тарусский</span>
+	                <span>Ульяновский</span>
+	                <span>Ферзиковский</span>
+	                <span>Хвастовичский</span>
+	                <span>Юхновский</span>
+	                <span>Боровский</span>
+	                <span>Малинники</span>
+	                <span>Калуга</span>
+	                <span>Центр</span>
+	                <span>Стадион</span>
+					<div class="done">Готово</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="black-box-bg"></div>
+	</div>
+	
+<!-- //// Поиск недвижимости -->
+
+<!-- Контент -->
+	
+	<div class="loop" id="content">
+		<div class="loop-inner">
+	
+	<!-- Левый сайдбар -->
+	
+			<div class="item left-sidebar">
+			
+				<div class="item-inner">
+				
+		<!-- Баннер -->
+				
+					<div class="b240">
+						<span><img src="img/images/banner.png" width="240" height="400" /></span>
+						<div class="b240-ad-link"><a href="/ad/">Реклама</a></div>
+					</div>
+					
+		<!-- //// Баннер -->
+
+		<!-- Новые объекты -->
+	
+					<div class="today">
+						<strong>Добавлено сегодня</strong>
+						
+			<!-- Новый объект -->
+						
+						<a class="today-item" href="#">
+							<span class="today-item-img"><img src="img/images/01.jpg" /></span>
+							<span class="today-item-text">1-комнатная квртира в новостройке
+								<small>ул. Заводская</small>
+							</span>
+							<span class="clear"></span>
+						</a>
+						
+			<!-- //// Новый объект -->
+	
+						<a class="today-item" href="#">
+							<span class="today-item-img"><img src="img/images/02.jpg" /></span>
+							<span class="today-item-text">1-комнатная квртира
+								<small>ул. Степана Разина</small></span>
+							<span class="clear"></span>
+						</a>
+	
+						<a class="today-item" href="#">
+							<span class="today-item-img"><img src="img/images/03.jpg" /></span>
+							<span class="today-item-text">4-комнатная квартира
+								<small>ул. Платова</small></span>
+							<span class="clear"></span>
+						</a>
+	
+						<a href="realty/new_adv/" class="sidebar-link-button">Посмотреть всё</a>
+					</div>
+					
+					
+		<!-- //// Новые объекты -->
+		
+		<!-- Сеошное описание -->
+	
+					<div class="welcome">
+						<div class="welcome-inner">
+							<span class="welcome-pseudolink">Показать</span>
+							<div class="welcome-cut">
+								<div class="gr"></div>
+								<h1>Вся недвижимость Калуги в нашем каталоге</h1>
+								<p>Мы&nbsp;рады приветствовать Вас на&nbsp;сайте, который помогает решить одну из&nbsp;самых важнейших задач в&nbsp;жизни любого жителя региона. Здесь Вы&nbsp;сможете ознакомиться с&nbsp;множеством предложений от&nbsp;местных компаний, предлагающих к&nbsp;продаже недвижимость в&nbsp;Калуге. В&nbsp;условиях, когда регион развивается опережающими темпами, значимость данного вопроса невозможно переоценить. Мы&nbsp;стараемся собрать для Вас самую свежую и&nbsp;актуальную информацию.</p>
+								<p>Мы&nbsp;стараемся сделать все возможное, чтобы покупатели быстрее нашли желаемый объект, а&nbsp;продавцы смогли презентовать свою недвижимость как можно более штирокой аудитории. Надеемся, что наша работа окажется полезной и&nbsp;Вы&nbsp;регулярно будете использовать наш ресурс. Если у&nbsp;вас есть конструктивные предложения или пожелания, мы&nbsp;всегда рады рассмотреть их.</p>
+							</div>
+						</div>
+					</div>
+					
+		<!-- //// Сеошное описание -->
+
+				</div>
+			</div>
+			
+	<!-- //// Левый сайдбар -->
+			
+	<!-- Заголовок по центру -->
+
+			<div class="item center-loop-item">
+				<div class="title-so">Горячие предложения</div>
+			</div>
+
+	<!-- //// Заголовок по центру -->
+
+	<!-- Правый сайдбар -->
+	
+			<div class="item right-sidebar">
+			
+				<div class="item-inner">
+				
+		<!-- Баннер -->
+
+					<div class="b240">
+						<span><img src="img/images/banner2.jpg" width="240" height="400" /></span>
+						<div class="b240-ad-link"><a href="/ad/">Реклама</a></div>
+					</div>
+
+		<!-- //// Баннер -->
+
+		<!-- Новости -->
+
+					<div class="news">
+						<div class="news-inner">
+							<strong>Новости</strong>
+							<ul class="news-items">
+								<li><a href="#">Президент России прекратил полномочия Анатолия Артамонова <small>11.06.2015</small></a></li>
+								<li><a href="#">Как земли используются не по назначению <small>10.06.2015</small></a></li>
+								<li><a href="#">Двое лидеров в рейтинге губернаторов <small>08.06.2015</small></a></li>
+								<li><a href="#">Что делается, несмотря на экономическую ситуацию <small>06.06.2015</small></a></li>
+							</ul>
+							<a href="/news/" class="sidebar-link-button">Архив</a>
+						</div>
+					</div>
+					
+		<!-- //// Новости -->
+		
+				</div>
+			</div>
+			
+	<!-- //// Правый сайдбар -->
+		
+	<!-- Горячий объект -->
+		
+			<div class="item">
+				<div class="item-inner">
+					<a class="simple-so" href="#">
+						<span class="simple-so-img"><img src="img/images/1.jpg" width="250" height="250" /></span>
+						<strong>Квартиры в ЖК «Комфорт-Парк»</strong>
+						<p>Чем же отличается этот жилой комплекс от других групп домов, микрорайонов, жилых кварталов и тем более объектов точечной застройки?</p>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>
+			
+	<!-- //// Горячий объект -->
+	
+			<div class="item">
+				<div class="item-inner">
+					<a class="simple-so" href="#">
+						<span class="simple-so-img"><img src="img/images/3.jpg" width="250" height="250" /></span>
+						<strong>Жилой комплекс «Правград» в Калуге</strong>
+						<p>Новый жилой комплекс «Правград» возводится в Калуге на Правобережье. Это новый микрорайон с квартирами элит-класса.</p>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>
+			
+	<!-- Супергорячий объект -->
+	
+			<div class="item">
+				<div class="item-inner">
+					<a class="super-so" href="#">
+						<span class="super-so-img"><img src="img/images/4.jpg" width="250" height="250" /></span>
+						<strong>Микрорайон «Солнечный» в Калуге</strong>
+						<p>Строительство микрорайона «Солнечный» обусловлено сразу многими положительными факторами. Сам микрорайон расположен очень удобно и выгодно – всего в 10-15 минутах от центра Калуги, а рядом с ним находится лесной массив.</p>
+						<span class="super-so-logo"><img src="img/images/an.jpg" /></span>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>
+			
+	<!-- //// Супергорячий объект -->
+	
+	<!-- Кнопка «Добавить объект» -->
+			<div class="item" style="margin-bottom:20px !important">
+				<div class="item-inner">
+					<a href="#" class="add-object-button">Добавить объект недвижимости</a>
+				</div>
+			</div>
+	<!-- /// Кнопка «Добавить объект» -->
+	
+	<!-- Размещение объектов -->
+	
+			<div class="item">
+				<div class="item-inner">
+					<a class="add-object-so" href="#">
+						<span>Продать недвижимость</span>
+						<small>Разместите свое объявление здесь по выгодной цене</small>
+						<strong>8 800 505-40-39</strong>
+						<small style="margin-top:-11px;">звонок из России &mdash; бесплатный!</small>
+					</a>
+				</div>
+			</div>
+			
+	<!-- //// Размещение объектов -->
+	
+			<div class="item">
+				<div class="item-inner">
+					<a class="simple-so" href="#">
+						<span class="simple-so-img"><img src="img/images/66.jpg" width="250" height="250" /></span>
+						<strong>Жилой комплекс «Дубрава»</strong>
+						<p>На Грабцевском шоссе, 85 на земельном участке 2,6 га продолжается строительство жилого комплекса переменной этажности комфорт-класса «Дубрава».</p>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>
+	
+			<div class="item">
+				<div class="item-inner">
+					<a class="super-so" href="#">
+						<span class="super-so-img"><img src="img/images/88.jpg" width="250" height="250" /></span>
+						<strong>Таунхаус, ул. Заокская, 32</strong>
+						<p>Конструкции отвечают современным требованиям по теплоизоляции от 2,35 до 3,9  (м2* С)/Вт. Проще говоря, аналогично кирпичной стене от 2х метров и более. </p>
+						<span class="super-so-logo"><img src="img/images/an2.gif" /></span>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>
+	
+			<div class="item">
+				<div class="item-inner">
+					<a class="simple-so" href="#">
+						<span class="simple-so-img"><img src="img/images/99.jpg" width="250" height="250" /></span>
+						<strong>Участок 8 га под базу отдыха, дер. Тиньково</strong>
+						<p>Это земли рекреации для строительства: базы отдыха, санатория, корпоративного поселка, туристического центра семейного отдыха и т.д. Участок расположен в уютном, тихом, живописном, историческом месте на окраине дер. Тиньково.</p>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>
+	
+	
+			<div class="item">
+				<div class="item-inner">
+					<a class="simple-so" href="#">
+						<span class="simple-so-img"><img src="img/images/100.jpg" width="250" height="250" /></span>
+						<strong>2-х комн. квартира в новостройке, 3-е Турынино</strong>
+						<p>Во дворе — детские и спортивные площадки, рядом магазины, инфраструктура, остановка общественного транспорта. Дома обкладываются облицовочным кирпичом.</p>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>
+	
+			<div class="item">
+				<div class="item-inner">
+					<a class="simple-so" href="#">
+						<span class="simple-so-img"><img src="img/images/110.jpg" width="250" height="250" /></span>
+						<strong>Калуга. Микрорайон «Хороший»</strong>
+						<p>Новый микрорайон Правобережья Калуги, который уже становится тихой уютной гаванью для вашей семьи и при этом располагается в центре Калуги.</p>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>
+	
+			<div class="item">
+				<div class="item-inner">
+					<a class="simple-so" href="#">
+						<span class="simple-so-img"><img src="img/images/120.jpg" width="250" height="250" /></span>
+						<strong>Продаю участок 50 соток в элитном коттеджном поселке УЧХОЗ</strong>
+						<p>Продаю участок 50 соток в элитном коттеджном поселке «УЧХОЗ». Расстояние от Калуги - 20 км, от МКАД - 160 км. Участок под ИЖС, практически идеальной квадратной формы и без перепадов высот. </p>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>
+	
+			<div class="item">
+				<div class="item-inner">
+					<a class="simple-so" href="#">
+						<span class="simple-so-img"><img src="img/images/130.jpg" width="250" height="250" /></span>
+						<strong>Кирпичный жилой дом на ул. Кибальчича</strong>
+						<p>Данный кирпичный дом на ул. Кибальчича расположился в очень хорошем тихом спокойном месте. Прямо из ваших окон открывается потрясающий панорамный вид на Яченское водохранилище.</p>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>
+			
+			<div class="item">
+				<div class="item-inner">
+					<a class="simple-so" href="#">
+						<span class="simple-so-img"><img src="img/images/5.jpg" width="250" height="250" /></span>
+						<strong>Квартиры в ЖК «Комфорт-Парк»</strong>
+						<p>Чем же отличается этот жилой комплекс от других групп домов, микрорайонов, жилых кварталов и тем более объектов точечной застройки?</p>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>
+	
+	
+			<div class="item">
+				<div class="item-inner">
+					<a class="simple-so" href="#">
+						<span class="simple-so-img"><img src="img/images/7.jpg" width="250" height="250" /></span>
+						<strong>Жилой комплекс «Правград» в Калуге</strong>
+						<p>Новый жилой комплекс «Правград» возводится в Калуге на Правобережье. Это новый микрорайон с квартирами элит-класса.</p>
+						<span class="clear"></span>
+					</a>
+				</div>
+			</div>		
+		
+			<div class="clear"></div>
+			
+		</div>
+	</div>
+	
+
+<!-- Подвал -->
+	<!-- Подвал -->
+	
+	<footer class="footer">
+		<div class="footer-inner"><a class="scrolltop" href="#top">Наверх</a>
+			<ul>
+				<li><a href="about/">О сайте</a></li>
+				<li><a href="contacts/">Контактная информация</a></li>
+				<li><a href="ad/">Реклама на сайте</a></li>
+				<li><a href="condition/">Условия размещения</a></li>
+				<li><a href="sitemap/">Карта сайта</a></li>
+			</ul>
+			<div class="clear footer-sep"></div>
+			
+			<div class="footer-left">
+				
+				<div class="ctr"><img src="img/images/ctr.gif" /></div>
+				<div class="footer-left-text">
+					<span>&copy; 2012&ndash;2015 ООО «КалугаДом»</span>
+					<small>При полном или частичном использовании материалов прямая ссылка на&nbsp;<a href="/">www.kalugadom.ru</a> обязательна.</small>
+					<small class="rocksta">Дизайн и вёрстка &mdash; «<a href="http://www.rocksta.ru/">Рокста</a>»</small>
+				</div>
+			</div>
+			
+			<div class="footer-center">
+				<div class="partners">
+					<span><a href="">Статьи партнёров</a></span>
+					<ul>
+						<li><a href="#">Виды кодексов Российской Федерации</a></li>
+						<li><a href="#">Как обустроить загородный дом</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			<div class="footer-right">
+				<div class="pay"></div>
+			</div>	
+			
+		</div>
+</footer>		
+<!-- //// Подвал -->
+		
+<!-- //// Подвал -->
+
+<script src="js/ms.js"></script>
+
+</body>
+
+</html>

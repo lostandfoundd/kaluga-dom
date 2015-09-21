@@ -1,0 +1,13 @@
+{
+  "name": "css_browser_selector",
+  "homepage": "https://github.com/rafaelp/css_browser_selector",
+  "_release": "56002b8096",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "56002b8096b435ed1ff4846213fe003f308b0dc0"
+  },
+  "_source": "git://github.com/rafaelp/css_browser_selector.git",
+  "_target": "*",
+  "_originalSource": "rafaelp/css_browser_selector"
+}
